@@ -4,7 +4,7 @@
 #####
 #####https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multitouchgesture 을 참고합니다.
 #####
-######1. xSwipe 다운받기 
+#####1. xSwipe 다운받기 
 #####
 #####$ cd
 #####$ wget https://github.com/iberianpig/xSwipe/archive/master.zip
@@ -15,7 +15,7 @@
 #####$ sudo apt install git
 #####$ git clone https://github.com/iberianpig/xSwipe.git
 ###### 
-#####2. X11::GUITest 설치하기 & 설치되어 있는 xserver-xorg-input-synaptics 지우고 새로 컴파일 해서 설치하기
+####2. X11::GUITest 설치하기 & 설치되어 있는 xserver-xorg-input-synaptics 지우고 새로 컴파일 해서 설치하기
 #####
 #####$ sudo apt install -y libx11-guitest-perl
 #####$ sudo apt install -y git build-essential libevdev-dev autoconf automake libmtdev-dev xorg-dev xutils-dev libtool
@@ -32,7 +32,7 @@
 #####
 #####이상이 없이 잘 작동하면
 #####
-#####3. SHMConfig 설정하기
+####3. SHMConfig 설정하기
 #####/etc/X11/xorg.conf.d/50-synaptics.conf 을 열고 아래의 내용을 붙여넣습니다.
 #####
 #####$ sudo nano /etc/X11/xorg.conf.d/50-synaptics.conf
@@ -53,7 +53,7 @@
 #####$ sudo reboot
 #####
 #####4. xSwipe 테스트 해보기
-#####5. $ perl ~/xSwipe/xSwipe.pl
+#####$ perl ~/xSwipe/xSwipe.pl
 #####
 #####중간에, 이런 오류가 나면
 #####Can't locate Smart/Comments.pm in @INC (you may need to install the Smart::Comments module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at xSwipe.pl line 15.BEGIN failed--compilation aborted at xSwipe.pl line 15.
@@ -63,7 +63,7 @@
 #####
 #####여기까지 문제 없이 되었으면
 #####
-#####5. 이제 자동 시작에 등록해서 부팅하거나 로그인 할 때마다 자동으로 실행되도록 합니다.
+####5. 이제 자동 시작에 등록해서 부팅하거나 로그인 할 때마다 자동으로 실행되도록 합니다.
 #####우선은 폴더 xSwipe를 숨김폴더 .xSwipe로 이름을 바꿉니다.
 #####그리고, 설치를 마친 xserver-xorg-input-synaptics 폴더를 지웁니다.
 #####
@@ -86,7 +86,7 @@
 #####
 #####이제 다시 시작해서 이용합니다.
 #####
-#####6. 기타 
+####6. 기타 
 #####natural scroll (자연 스런 스크롤)을 시스템 설정에서 하지 않고 직접 만드는 방법입니다.
 #####
 #####$ cd
