@@ -56,8 +56,7 @@
 #####5. $ perl ~/xSwipe/xSwipe.pl
 #####
 #####중간에, 이런 오류가 나면
-#####Can't locate Smart/Comments.pm in @INC (you may need to install the Smart::Comments module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at xSwipe.pl line 15.
-BEGIN failed--compilation aborted at xSwipe.pl line 15.
+#####Can't locate Smart/Comments.pm in @INC (you may need to install the Smart::Comments module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at xSwipe.pl line 15.BEGIN failed--compilation aborted at xSwipe.pl line 15.
 #####
 #####패키지 libsmart-comments-perl을 설치하고 다시 해보세요
 #####$ sudo apt install libsmart-comments-perl
