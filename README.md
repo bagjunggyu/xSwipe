@@ -53,7 +53,7 @@ $ sudo mkdir -p /etc/X11/xorg.conf.d
 $ sudo reboot
 
 4. xSwipe 테스트 해보기
-$ perl ~/xSwipe/xSwipe.pl
+5. $ perl ~/xSwipe/xSwipe.pl
 
 중간에, 이런 오류가 나면
 Can't locate Smart/Comments.pm in @INC (you may need to install the Smart::Comments module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at xSwipe.pl line 15.
@@ -89,9 +89,13 @@ Comment=
 
 6. 기타 
 natural scroll (자연 스런 스크롤)을 시스템 설정에서 하지 않고 직접 만드는 방법입니다.
-cd
-nano .Xmodmap
+
+$ cd
+$ nano .Xmodmap
+
 pointer = 1 2 3 5 4 7 6 8 9 10 11 12
+
+를 붙여 넣습니다.
 
 옵션)
 
