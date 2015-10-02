@@ -53,6 +53,7 @@
 #####$ sudo reboot
 #####
 ###4. xSwipe 테스트 해보기
+#####$ cd
 #####$ perl ~/xSwipe/xSwipe.pl
 #####
 #####중간에, 이런 오류가 나면
@@ -98,10 +99,10 @@
 #####
 #####옵션)
 #####
--d RATE : RATE is sensitivity to swipe.Default value is 1. Shorten swipe-length by half (e.g.,$ perl xSwipe.pl -d 0.5)
--m INTERVAL : INTERVAL is how often synclient monitor changes to the touchpad state. Default value is 10(ms). Set 50ms as monitoring-span. (e.g.,$ perl xSwipe.pl -m 50)
--n : Natural scroll like Macbook, use "/nScroll/eventKey.cfg".
--e : Enable edge-swipe
+#####-d RATE : RATE is sensitivity to swipe.Default value is 1. Shorten swipe-length by half (e.g.,$ perl xSwipe.pl #####-d 0.5)
+#####-m INTERVAL : INTERVAL is how often synclient monitor changes to the touchpad state. Default value is 10(ms). Set 50ms as monitoring-span. (e.g.,$ perl xSwipe.pl -m 50)
+#####-n : Natural scroll like Macbook, use "/nScroll/eventKey.cfg".
+#####-e : Enable edge-swipe
 #####
 #####기타 자세한 설명은 이글을 참고하세요
 #####https://github.com/iberianpig/xSwipe
