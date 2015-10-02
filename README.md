@@ -1,25 +1,25 @@
-#맥북처럼 터치패드로 브라우저를 이용하는 방법입니다.
-#Ubuntu 15.10 GNOME을 MacBook Pro 2015 Retina 13 인치에 설치해서 작업했습니다.
-#xswipe 설정 방법은
+맥북처럼 터치패드로 브라우저를 이용하는 방법입니다.
+Ubuntu 15.10 GNOME을 MacBook Pro 2015 Retina 13 인치에 설치해서 작업했습니다.
+xswipe 설정 방법은
 
-#https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multitouchgesture 을 참고합니다.
+https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multitouchgesture 을 참고합니다.
 
-#1. xSwipe 다운받기 
+1. xSwipe 다운받기 
 
-#$ cd
-#$ wget https://github.com/iberianpig/xSwipe/archive/master.zip
-#$ unzip master.zip
+##$ cd
+##$ wget https://github.com/iberianpig/xSwipe/archive/master.zip
+##$ unzip master.zip
 
-#또는
+또는
 
-#$ sudo apt install git
-#$ git clone https://github.com/iberianpig/xSwipe.git
+###$ sudo apt install git
+###$ git clone https://github.com/iberianpig/xSwipe.git
  
-#2. X11::GUITest 설치하기 & 설치되어 있는 xserver-xorg-input-synaptics 지우고 새로 컴파일 해서 설치하기
+2. X11::GUITest 설치하기 & 설치되어 있는 xserver-xorg-input-synaptics 지우고 새로 컴파일 해서 설치하기
 
 #$ sudo apt install -y libx11-guitest-perl
 #$ sudo apt install -y git build-essential libevdev-dev autoconf automake libmtdev-dev xorg-dev xutils-dev libtool
-$ sudo apt remove -y xserver-xorg-input-synaptics
+#$ sudo apt remove -y xserver-xorg-input-synaptics
 $ git clone https://github.com/Chosko/xserver-xorg-input-synaptics.git
 $ cd xserver-xorg-input-synaptics
 $ ./autogen.sh
