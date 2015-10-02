@@ -6,9 +6,9 @@ https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multito
 
 1. xSwipe 다운받기 
 
-##$ cd
-##$ wget https://github.com/iberianpig/xSwipe/archive/master.zip
-##$ unzip master.zip
+####$ cd
+####$ wget https://github.com/iberianpig/xSwipe/archive/master.zip
+####$ unzip master.zip
 
 또는
 
