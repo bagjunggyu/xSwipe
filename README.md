@@ -1,6 +1,6 @@
-######맥북처럼 터치패드로 브라우저를 이용하는 방법입니다.
-######Ubuntu 15.10 GNOME을 MacBook Pro 2015 Retina 13 인치에 설치해서 작업했습니다.
-######xswipe 설치와 설정 방법은
+#####맥북처럼 터치패드로 브라우저를 이용하는 방법입니다.
+#####Ubuntu 15.10 GNOME을 MacBook Pro 2015 Retina 13 인치에 설치해서 작업했습니다.
+#####xswipe 설치와 설정 방법은
 #####
 #####https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multitouchgesture 을 참고했습니다.
 #####
