@@ -96,8 +96,9 @@
 #####
 #####기타 자세한 설명은 이글을 참고하세요
 #####https://github.com/iberianpig/xSwipe
+#####
 ###6. 기타 
-#####natural scroll (자연 스런 스크롤)을 시스템 설정에서 하지 않고 직접 만드는 방법입니다.
+#####Natural Scroll (자연 스러운 스크롤)을 시스템 설정에서 하지 않고 직접 만드는 방법입니다.
 #####
 #####$ cd
 #####$ nano .Xmodmap
