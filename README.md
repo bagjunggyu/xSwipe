@@ -76,7 +76,7 @@
 #####
 #####[Desktop Entry]
 #####Type=Application
-#####Exec=perl ~/.xSwipe/xSwipe.pl -m 30
+#####Exec=perl ~/.xSwipe/xSwipe.pl -d 2.2 -m 30
 #####Hidden=false
 #####NoDisplay=false
 #####X-GNOME-Autostart-enabled=true
