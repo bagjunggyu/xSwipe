@@ -14,7 +14,9 @@
 #####
 #####$ sudo apt install git
 #####$ git clone https://github.com/iberianpig/xSwipe.git
-###### 
+##### 
+#####저는 아래 방법으로 했습니다.
+#####
 ###2. X11::GUITest 설치하기 & 설치되어 있는 xserver-xorg-input-synaptics 지우고 새로 컴파일 해서 설치하기
 #####
 #####$ sudo apt install -y libx11-guitest-perl
