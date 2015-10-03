@@ -1,5 +1,6 @@
 #####맥북처럼 터치패드로 스와이핑해서 웹브라우저와 시스템을 이용하는 방법입니다.
 #####Ubuntu GNOME 15.10을 MacBook Pro 2015 Retina 13 인치에 설치해서 작업했습니다.
+#####http://bagjunggyu.blogspot.kr/2015/07/macbook-pro-elementary-os.html
 #####xSwipe 설치와 설정 방법은
 #####
 #####https://github.com/iberianpig/xSwipe 와 http://blog.mpiannucci.com/view/multitouchgesture 을 참고했습니다.
