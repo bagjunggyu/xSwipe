@@ -99,10 +99,10 @@
 #####
 #####옵션)
 #####
-#####-d RATE : RATE is sensitivity to swipe.Default value is 1. Shorten swipe-length by half (e.g.,$ perl xSwipe.pl #####-d 0.5)
-#####-m INTERVAL : INTERVAL is how often synclient monitor changes to the touchpad state. Default value is 10(ms). Set 50ms as monitoring-span. (e.g.,$ perl xSwipe.pl -m 50)
-#####-n : Natural scroll like Macbook, use "/nScroll/eventKey.cfg".
-#####-e : Enable edge-swipe
+#####-d RATE : 비율은 스와이프 감도 입니다. 기본 값은 1 이며 줄어 들수록 스와이프 거리가 짧아지고, 클 수록 스와이프 거리가 길어집니다. 해보니 2.2정도가 좋더군요 (예: $ perl xSwipe.pl -d 2.2)
+####-m INTERVAL : 인터벌은 싱클라이언트(synclient)가 터치패드 상태 확인을 바꾸는 주기입니다. 기본 값은 10(ms) 입니다. 너무 자주 하면 배터리 수명이 빨리 줍니다 저는 30으로 설정했습니다.
+#####-n : 자연 스러운 스크롤 (Natural Scroll) 기능입니다, "/nScroll/event.cfg"를 이용합니다.
+#####-e : 엣지 스와이프(edge-swipe)를 실행합니다. 
 #####
 #####기타 자세한 설명은 이글을 참고하세요
 #####https://github.com/iberianpig/xSwipe
