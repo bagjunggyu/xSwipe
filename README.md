@@ -80,11 +80,11 @@
 #####같은 내용인 ~ 로 하면 시작할때 자동으로 시작하지 않습니다.
 #####/home/사용자 로 하세요 
 #####ex)
-#####/home/user/.xSwipe/xSwipe.pl -d 2.2 -m 30
+#####/home/bagjunggyu/.xSwipe/xSwipe.pl -d 2.2 -m 30
 #####
 #####[Desktop Entry]
 #####Type=Application
-#####Exec=perl ~/.xSwipe/xSwipe.pl -d 2.2 -m 30
+#####Exec=perl /haome/user/.xSwipe/xSwipe.pl -d 2.2 -m 30
 #####Hidden=false
 #####NoDisplay=false
 #####X-GNOME-Autostart-enabled=true
